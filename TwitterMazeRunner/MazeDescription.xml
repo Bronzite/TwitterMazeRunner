@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mazes>
+  <hmaze name="The Test Maze" start="0" end="3">
+    <room id="0">
+      I am in the room where I woke up.
+      <exit name="north" goesTo="1" />
+      <exit name="east" goesTo="2" />
+    </room>
+    <room id="1">
+      I am in a verdant garden.
+      <exit name="south" goesTo="0" />
+      <exit name="east" goesTo="3" />
+    </room>
+    <room id="2">
+      I am near a small shack.
+      <exit name="north" goesTo="3" />
+      <exit name="west" goesTo="0" />
+      <exit name="in" goesTo="4" />
+    </room>
+    <room id="3">
+      I am in a bedroom.
+      <exit name="south" goesTo="2" />
+      <exit name="west" goesTo="1" />
+    </room>
+    <room id="4">
+      I am in a small wooden shack.
+      <exit name="out" goesTo="2" />
+    </room>
+  </hmaze>
+  <maze name="The Mansion" start="1" end="13">
+    <room id="1">
+      I am in a foyer.
+      <exit name="north" goesTo="2"/>
+    </room>
+    <room id="2">
+      I am in a large hallway.
+      <exit name="north" goesTo="5"/>
+      <exit name="east" goesTo="4"/>
+      <exit name="west" goesTo="3"/>
+      <exit name="south" goesTo="1"/>
+      <exit name="up" goesTo="9"/>
+      <exit name="down" goesTo="17"/>
+    </room>
+    <room id="3">
+      I am in a glass-walled conservatory.
+      <exit name="east" goesTo="2"/>
+    </room>
+    <room id="4">
+      I am in a well-appointed library.
+      <exit name="west" goesTo="2"/>
+    </room>
+    <room id="5">
+      I am in a dining room, set for 12.
+      <exit name="south" goesTo="2" />
+      <exit name="east" goesTo="6" />
+      <exit name="west" goesTo="7" />
+    </room>
+    <room id="6">
+      I am in a kitchen, laying unused.
+      <exit name="west" goesTo="5" />
+    </room>
+    <room id="7">
+      I am in a beautiful garden, whipped by rain.
+      <exit name="east" goesTo="5"/>
+      <exit name="west" goesTo="8"/>
+    </room>
+    <room id="8">
+      I am standing on a wet lawn, in the rain.
+      <exit name="east" goesTo="7" />
+    </room>
+    <room id="9">
+      I am on an upper floor landing.
+      <exit name="down" goesTo="2" />
+      <exit name="west" goesTo="10" />
+      <exit name="east" goesTo="11" />
+      <exit name="north" goesTo="15" />
+    </room>
+    <room id="10">
+      I am in the western upstairs hallway.
+      <exit name="north" goesTo="12" />
+      <exit name="east" goesTo="9" />
+    </room>
+    <room id="11">
+      I am in the eastern upstairs hallway.
+      <exit name="north" goesTo="13" />
+      <exit name="west" goesTo="9" />
+    </room>
+    <room id="12">
+      I am in a messy, cluttered study.
+      <exit name="south" goesTo="10" />
+    </room>
+    <room id="13">
+      My bed sits in the middle of this chamber!
+      <exit name="south" goesTo="11" />
+    </room>
+    <room id="14">
+      I am in a well-equipped game room.
+      <exit name="west" goesTo="15" />
+    </room>
+    <room id="15">
+      I am in the northern upstairs hallway.
+      <exit name="west" goesTo="16" />
+      <exit name="east" goesTo="14" />
+      <exit name="south" goesTo="9" />
+    </room>
+    <room id="16">
+      I am in a cluttered junk room.
+      <exit name="east" goesTo="15" />
+    </room>
+    <room id="17">
+      I am in a dark basement room.
+      <exit name="up" goesTo="2" />
+      <exit name="left" goesTo="18" />
+      <exit name="right" goesTo="19" />
+    </room>
+    <room id="18">
+      I am in an empty wine cellar.
+      <exit name="east" goesTo="17" />
+    </room>
+    <room id="19">
+      I am in a dirty coal bunker.
+      <exit name="west" goesTo="17" />
+      <exit name="south" goesTo="20"/>
+    </room>
+    <room id="20">
+      I am in a soot-covered furance room.
+      <exit name="north" goesTo="19" />
+    </room>
+  </maze>
+</mazes>
